@@ -39,7 +39,7 @@
       color: hsl(0, 0%, 100%);
       font-family: 'Lexend Deca',sans-serif;
       text-align: center;
-      font-size: 23px;
+      font-size: 35px;
       margin-bottom: 11px;
     }
     #tab .left h2 span{
@@ -72,7 +72,7 @@
       font-weight: 300;
     }
 
-    @media screen and (min-width: 700px) {
+    @media screen and (min-width: 850px) {
       #tab{
         flex-direction: row;
         width: 80%;
@@ -81,13 +81,25 @@
         width: 50%;
         content: url(images/image-header-desktop.jpg);
       }
-      .left{
-        padding: 20px;
+      #tab .left{
+        margin: 5%;
+      }
+      #tab .left h2{
+        margin-bottom: 35px;
+        text-align: left;
+      }
+      #tab .left>p{
+        font-size: 16px;
+        line-height: 25px;
+        text-align: left;
+        margin-bottom: 50px;
       }
       .notes{
+        width: 100%;
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: flex-start;
+        column-gap: 15%;
       }
     }
   </style>
